@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Arts & Humanities | Northbridge University</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+
+/* MAIN SECTION */
+
+.arts-section {
+    padding: 70px 0;
+    background: #f8f9fc;
+}
+
+.arts-section h2 {
+    color: #06452f;
+    font-weight: 700;
+}
+
+.arts-section .arts-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.arts-section .arts-details {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 4px solid #d6a84b;
+    height: 100%;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+}
+
+.arts-section .arts-details h3 {
+    color: #c18b28;
+    font-weight: 700;
+}
+
+.arts-section .arts-btn {
+    background: #06452f;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.arts-section .arts-btn:hover {
+    background: #c18b28;
+    color: white;
+}
+
+.arts-section ul li {
+    margin-bottom: 12px;
+}
+
+.arts-section table {
+    background: white;
+}
+
+
+/* BANNER SECTION */
+
+.arts-banner-section {
+    width: 100%;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+}
+
+.arts-banner-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.arts-banner-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+}
+/* ARTS & HUMANITIES COURSES */
+
+.arts-courses {
+    padding: 70px 0;
+    background: #f8f9fc;
+}
+
+.arts-courses h2 {
+    color: #06452f;
+    font-weight: 700;
+}
+
+.arts-course-card {
+    background: #fff;
+    padding: 25px;
+    height: 100%;
+    border-radius: 10px;
+    border-left: 4px solid #d6a84b;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.arts-course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 20px rgba(0,0,0,0.1);
+}
+
+.arts-course-card h4 {
+    color: #06452f;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.arts-course-card h5 {
+    color: #c18b28;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.arts-course-card ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.arts-course-card ul li {
+    margin-bottom: 10px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.arts-course-badge {
+    background: #06452f;
+    color: white;
+    padding: 6px 13px;
+    border-radius: 20px;
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.arts-course-note {
+    background: #fff;
+    border-left: 4px solid #d6a84b;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .arts-banner-section {
+        padding: 10px;
+    }
+
+    .arts-banner-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .arts-section {
+        padding: 40px 0;
+    }
+
+    .arts-section .arts-img {
+        height: 240px;
+        margin-top: 20px;
+    }
+
+    .arts-section h2 {
+        font-size: 27px;
+    }
+
+}
+
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header id="header"></header>
+
+
+    <!-- MAIN ARTS SECTION -->
+
+    <section class="arts-section">
+        <div class="container">
+
+            <!-- INTRODUCTION -->
+
+            <div class="row align-items-center g-4">
+
+                <div class="col-lg-6">
+
+                    <span class="badge bg-warning text-dark mb-3">
+                        Undergraduate Programme
+                    </span>
+
+                    <h2 class="display-5">
+                        Department of Arts & Humanities
+                    </h2>
+
+                    <p class="mt-3">
+                        Explore the world of literature, history,
+                        culture, philosophy and social sciences
+                        with the Arts & Humanities department
+                        at Northbridge University.
+                    </p>
+
+                    <p>
+                        Develop critical thinking, creativity,
+                        communication and analytical skills
+                        through an enriching academic experience.
+                    </p>
+
+                    <p>
+                        <strong>Programme:</strong> Bachelor of Arts (BA)<br>
+                        <strong>Duration:</strong> As per university regulations<br>
+                        <strong>Eligibility:</strong> 10+2 Pass<br>
+                        <strong>Mode:</strong> Full Time
+                    </p>
+
+                    <a href="contact.html" class="arts-btn">
+                        Enquire Now
+                    </a>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=1000"
+                        class="arts-img"
+                        alt="Arts and Humanities students">
+
+                </div>
+
+            </div>
+
+
+            <!-- COURSE DETAILS CARDS -->
+
+            <div class="row g-4 mt-5">
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="arts-details">
+                        <h5>Programme</h5>
+                        <h3>BA</h3>
+                        <p>Bachelor of Arts.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="arts-details">
+                        <h5>Eligibility</h5>
+                        <h3>10+2</h3>
+                        <p>Higher Secondary Pass.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="arts-details">
+                        <h5>Study Areas</h5>
+                        <h3>Multiple</h3>
+                        <p>Humanities and Social Sciences.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="arts-details">
+                        <h5>Learning</h5>
+                        <h3>Holistic</h3>
+                        <p>Academic and practical learning.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- WHAT YOU WILL LEARN -->
+
+            <div class="row mt-5 g-4">
+
+                <div class="col-lg-6">
+
+                    <h2>What You Will Learn</h2>
+
+                    <ul class="mt-3">
+                        <li>English Literature and Language</li>
+                        <li>History and Cultural Studies</li>
+                        <li>Political Science</li>
+                        <li>Sociology</li>
+                        <li>Psychology</li>
+                        <li>Philosophy and Ethics</li>
+                        <li>Communication Skills</li>
+                        <li>Social and Cultural Development</li>
+                    </ul>
+
+                </div>
+
+
+                <!-- CAREER OPPORTUNITIES -->
+
+                <div class="col-lg-6">
+
+                    <h2>Career Opportunities</h2>
+
+                    <ul class="mt-3">
+                        <li>Teacher and Academic Professional</li>
+                        <li>Journalist and Media Professional</li>
+                        <li>Content Writer and Editor</li>
+                        <li>Social Worker</li>
+                        <li>Public Relations Executive</li>
+                        <li>Research Assistant</li>
+                        <li>Civil Services</li>
+                        <li>Human Resource Executive</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+            <!-- SKILLS SECTION -->
+
+            <div class="row mt-5 g-4">
+
+                <div class="col-lg-6">
+
+                    <div class="arts-details">
+
+                        <h3>Skills You Will Develop</h3>
+
+                        <ul class="mt-3">
+                            <li>Critical and Analytical Thinking</li>
+                            <li>Effective Communication</li>
+                            <li>Research and Writing Skills</li>
+                            <li>Problem Solving</li>
+                            <li>Creative Thinking</li>
+                            <li>Leadership and Teamwork</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-6">
+
+                    <div class="arts-details">
+
+                        <h3>Learning Opportunities</h3>
+
+                        <ul class="mt-3">
+                            <li>Classroom Discussions</li>
+                            <li>Research Projects</li>
+                            <li>Presentations and Seminars</li>
+                            <li>Group Activities</li>
+                            <li>Academic Workshops</li>
+                            <li>Community Engagement</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            
+        <!-- ALL ARTS & HUMANITIES COURSES -->
+    </section>
+
+    <section class="arts-courses">
+
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <span class="badge bg-warning text-dark mb-2">
+                    Academic Programmes
+                </span>
+
+                <h2 class="display-6">
+                    Courses in Arts & Humanities
+                </h2>
+
+                <p class="text-muted">
+                    Explore a wide range of undergraduate,
+                    postgraduate and professional programmes.
+                </p>
+            </div>
+
+
+            <!-- UNDERGRADUATE COURSES -->
+
+            <h2 class="mb-4">Undergraduate Programmes</h2>
+
+            <div class="row g-4 mb-5">
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="arts-course-card">
+                        <span class="arts-course-badge">UG Programme</span>
+                        <h4>Bachelor of Arts (BA)</h4>
+                        <ul>
+                            <li>BA English</li>
+                            <li>BA Hindi</li>
+                            <li>BA History</li>
+                            <li>BA Political Science</li>
+                            <li>BA Economics</li>
+                            <li>BA Sociology</li>
+                            <li>BA Psychology</li>
+                            <li>BA Philosophy</li>
+                            <li>BA Geography</li>
+                            <li>BA Public Administration</li>
+                            <li>BA Sanskrit</li>
+                            <li>BA Urdu</li>
+                            <li>BA Education</li>
+                            <li>BA Anthropology</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="arts-course-card">
+                        <span class="arts-course-badge">UG Programme</span>
+                        <h4>Specialised Bachelor's Degrees</h4>
+                        <ul>
+                            <li>BA English Honours</li>
+                            <li>BA History Honours</li>
+                            <li>BA Economics Honours</li>
+                            <li>BA Political Science Honours</li>
+                            <li>BA Psychology Honours</li>
+                            <li>BA Sociology Honours</li>
+                            <li>BA Geography Honours</li>
+                            <li>BA Philosophy Honours</li>
+                            <li>Bachelor of Social Work (BSW)</li>
+                            <li>Bachelor of Rural Studies (BRS)</li>
+                            <li>Bachelor of Fine Arts (BFA)</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="arts-course-card">
+                        <span class="arts-course-badge">UG Programme</span>
+                        <h4>Media & Creative Studies</h4>
+                        <ul>
+                            <li>BA Journalism</li>
+                            <li>BA Mass Communication</li>
+                            <li>BA Journalism and Digital Media</li>
+                            <li>BA Performing Arts</li>
+                            <li>BA Music</li>
+                            <li>BA Theatre Arts</li>
+                            <li>BA Fine Arts</li>
+                            <li>BA Linguistics</li>
+                            <li>BA Foreign Languages</li>
+                            <li>BA Creative Writing</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- POSTGRADUATE COURSES -->
+
+            <h2 class="mb-4">Postgraduate Programmes</h2>
+
+            <div class="row g-4 mb-5">
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="arts-course-card">
+                        <span class="arts-course-badge">PG Programme</span>
+                        <h4>Master of Arts (MA)</h4>
+                        <ul>
+                            <li>MA English</li>
+                            <li>MA Hindi</li>
+                            <li>MA History</li>
+                            <li>MA Political Science</li>
+                            <li>MA Economics</li>
+                            <li>MA Sociology</li>
+                            <li>MA Psychology</li>
+                            <li>MA Philosophy</li>
+                            <li>MA Geography</li>
+                            <li>MA Public Administration</li>
+                            <li>MA Sanskrit</li>
+                            <li>MA Urdu</li>
+                            <li>MA Education</li>
+                            <li>MA Anthropology</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="arts-course-card">
+                        <span class="arts-course-badge">PG Programme</span>
+                        <h4>Media & Communication</h4>
+                        <ul>
+                            <li>MA Journalism</li>
+                            <li>MA Mass Communication</li>
+                            <li>MA Digital Media</li>
+                            <li>MA Film Studies</li>
+                            <li>MA Media Studies</li>
+                            <li>MA Public Relations</li>
+                            <li>MA Communication Studies</li>
+                            <li>MA Creative Writing</li>
+                            <li>MA Translation Studies</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="arts-course-card">
+                        <span class="arts-course-badge">PG Programme</span>
+                        <h4>Advanced Arts Programmes</h4>
+                        <ul>
+                            <li>Master of Fine Arts (MFA)</li>
+                            <li>Master of Social Work (MSW)</li>
+                            <li>Master of Library Science (MLIS)</li>
+                            <li>MA International Relations</li>
+                            <li>MA Development Studies</li>
+                            <li>MA Women's Studies</li>
+                            <li>MA Cultural Studies</li>
+                            <li>MA Human Rights</li>
+                            <li>MA Rural Development</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- DIPLOMA COURSES -->
+
+            <h2 class="mb-4">Diploma & Certificate Programmes</h2>
+
+            <div class="row g-4 mb-5">
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="arts-course-card">
+                        <span class="arts-course-badge">Diploma</span>
+                        <h4>Language Programmes</h4>
+                        <ul>
+                            <li>Diploma in English</li>
+                            <li>Diploma in French</li>
+                            <li>Diploma in German</li>
+                            <li>Diploma in Spanish</li>
+                            <li>Diploma in Translation</li>
+                            <li>Certificate in Foreign Languages</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="arts-course-card">
+                        <span class="arts-course-badge">Diploma</span>
+                        <h4>Media Programmes</h4>
+                        <ul>
+                            <li>Diploma in Journalism</li>
+                            <li>Diploma in Mass Communication</li>
+                            <li>Diploma in Digital Media</li>
+                            <li>Diploma in Public Relations</li>
+                            <li>Certificate in Creative Writing</li>
+                            <li>Diploma in Photography</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="arts-course-card">
+                        <span class="arts-course-badge">Certificate</span>
+                        <h4>Other Programmes</h4>
+                        <ul>
+                            <li>Diploma in Social Work</li>
+                            <li>Diploma in Heritage Studies</li>
+                            <li>Certificate in Human Rights</li>
+                            <li>Certificate in Philosophy</li>
+                            <li>Certificate in History</li>
+                            <li>Certificate in Cultural Studies</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- RESEARCH PROGRAMMES -->
+
+            <h2 class="mb-4">Research Programmes</h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="arts-course-card">
+                        <span class="arts-course-badge">Research</span>
+                        <h4>Doctoral Programmes</h4>
+                        <ul>
+                            <li>PhD in English</li>
+                            <li>PhD in History</li>
+                            <li>PhD in Economics</li>
+                            <li>PhD in Political Science</li>
+                            <li>PhD in Sociology</li>
+                            <li>PhD in Psychology</li>
+                            <li>PhD in Geography</li>
+                            <li>PhD in Philosophy</li>
+                            <li>PhD in Education</li>
+                            <li>PhD in Journalism</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="arts-course-card">
+                        <span class="arts-course-badge">Integrated</span>
+                        <h4>Integrated Programmes</h4>
+                        <ul>
+                            <li>BA + MA English</li>
+                            <li>BA + MA History</li>
+                            <li>BA + MA Economics</li>
+                            <li>BA + MA Political Science</li>
+                            <li>BA + MA Psychology</li>
+                            <li>BA + MA Sociology</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="arts-course-card">
+                        <span class="arts-course-badge">Research</span>
+                        <h4>Research Specialisations</h4>
+                        <ul>
+                            <li>Literature and Linguistics</li>
+                            <li>Social and Cultural Research</li>
+                            <li>Historical Research</li>
+                            <li>Political and Economic Studies</li>
+                            <li>Psychological Research</li>
+                            <li>Media and Communication Research</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- NOTE -->
+
+            <div class="arts-course-note">
+                <h5 style="color:#06452f;">
+                    <strong>Admission Information</strong>
+                </h5>
+
+                <p class="mb-0">
+                    Course availability, eligibility, duration and admission
+                    requirements vary by programme. Please contact Northbridge
+                    University for details about currently offered courses.
+                </p>
+            </div>
+
+        </div>
+        <!-- FEE STRUCTURE -->
+
+            <div class="mt-5 p-4 bg-white rounded shadow-sm">
+
+                <h2>Fee Structure</h2>
+
+                <div class="table-responsive mt-3">
+
+                    <table class="table table-bordered text-center">
+
+                        <thead class="table-dark">
+
+                            <tr>
+                                <th>Academic Year</th>
+                                <th>Tuition Fees</th>
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td>First Year</td>
+                                <td>Contact Admissions</td>
+                            </tr>
+
+                            <tr>
+                                <td>Second Year</td>
+                                <td>Contact Admissions</td>
+                            </tr>
+
+                            <tr>
+                                <td>Third Year</td>
+                                <td>Contact Admissions</td>
+                            </tr>
+
+                            <tr class="fw-bold">
+                                <td>Total</td>
+                                <td>As per University Fee Structure</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+                <small class="text-muted">
+                    Please contact the university for the latest fee details.
+                </small>
+
+            </div>
+
+        </div>
+
+
+
+
+        <!-- ARTS BANNER -->
+
+        <div class="arts-banner-section">
+
+            <div class="arts-banner-container">
+
+                <img
+                    src="/assets/img/arts-humanities-banner.jpeg"
+                    alt="Northbridge University Arts and Humanities Admissions Banner">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer id="footer"></footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="./js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>

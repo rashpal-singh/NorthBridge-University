@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Science Department | Northbridge University</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-green: #06452f;
+            --gold: #d6a84b;
+            --light-bg: #f8f9fc;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        /* Hero Section */
+        .science-section {
+            padding: 70px 0;
+            background-color: var(--light-bg);
+        }
+
+        .science-section h1 {
+            color: var(--primary-green);
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .science-section p {
+            line-height: 1.8;
+            font-size: 16px;
+        }
+
+        .science-img {
+            width: 100%;
+            height: 380px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        .science-btn {
+            background-color: var(--primary-green);
+            color: #ffffff;
+            padding: 12px 28px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 15px;
+            transition: 0.3s;
+        }
+
+        .science-btn:hover {
+            background-color: var(--gold);
+            color: #ffffff;
+        }
+
+        /* Department Highlights */
+        .science-details {
+            padding: 55px 0;
+        }
+
+        .science-details .detail-card {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            height: 100%;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+            border-bottom: 4px solid var(--gold);
+        }
+
+        .science-details h4 {
+            color: var(--primary-green);
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        /* Courses Section */
+        .science-courses {
+            padding: 65px 0;
+            background-color: var(--light-bg);
+        }
+
+        .science-courses h2 {
+            color: var(--primary-green);
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .science-course-card {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            height: 100%;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.07);
+            transition: 0.3s;
+        }
+
+        .science-course-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .science-course-card h4 {
+            color: var(--primary-green);
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .science-course-card ul {
+            padding-left: 20px;
+            margin-bottom: 0;
+        }
+
+        .science-course-card li {
+            margin-bottom: 9px;
+            line-height: 1.5;
+        }
+
+        .science-course-badge {
+            display: inline-block;
+            background-color: #f5e8c9;
+            color: #795516;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .science-course-note {
+            font-size: 14px;
+            color: #666;
+            margin-top: 12px;
+        }
+
+        /* Fee Section */
+        .science-fees {
+            padding: 65px 0;
+        }
+
+        .science-fees h2 {
+            color: var(--primary-green);
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .science-fees table {
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .science-fees thead {
+            background-color: var(--primary-green);
+            color: #ffffff;
+        }
+
+        .science-fees th,
+        .science-fees td {
+            padding: 15px;
+            vertical-align: middle;
+        }
+
+        /* Banner */
+        .science-banner-section {
+            padding: 45px 0;
+            background-color: var(--light-bg);
+        }
+
+        .science-banner-container {
+            text-align: center;
+        }
+
+        .science-banner-container img {
+            width: 100%;
+            height: auto;
+            max-width: 1400px;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .science-section {
+                padding: 45px 0;
+            }
+
+            .science-section h1 {
+                font-size: 30px;
+            }
+
+            .science-img {
+                height: 260px;
+                margin-top: 25px;
+            }
+
+            .science-details,
+            .science-courses,
+            .science-fees {
+                padding: 45px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header"></header>
+
+    <!-- Hero Section -->
+    <section class="science-section">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+
+                    <h1>Department of Science</h1>
+
+                    <p>
+                        The Department of Science at Northbridge University
+                        promotes scientific learning, research, innovation
+                        and discovery. Our programmes are designed to develop
+                        strong theoretical knowledge and practical skills
+                        across various scientific disciplines.
+                    </p>
+
+                    <p>
+                        Through laboratory work, research projects,
+                        field studies and modern learning methods, students
+                        gain the knowledge and experience required to
+                        explore scientific careers and contribute to
+                        technological and social development.
+                    </p>
+
+                    <a href="contact.html" class="science-btn">
+                        Enquire Now
+                    </a>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1000"
+                        alt="Science laboratory"
+                        class="science-img">
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Department Highlights -->
+    <section class="science-details">
+        <div class="container">
+
+            <div class="row g-4">
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="detail-card">
+                        <h4>Scientific Research</h4>
+                        <p>
+                            Encouraging curiosity, investigation and
+                            scientific discovery.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="detail-card">
+                        <h4>Modern Laboratories</h4>
+                        <p>
+                            Practical learning through laboratory
+                            experiments and demonstrations.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="detail-card">
+                        <h4>Expert Learning</h4>
+                        <p>
+                            Academic guidance and subject-focused
+                            learning experiences.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="detail-card">
+                        <h4>Career Opportunities</h4>
+                        <p>
+                            Preparing students for research, education,
+                            industry and scientific careers.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="science-courses">
+        <div class="container">
+
+            <h2>Our Courses & Programmes</h2>
+
+            <p class="text-center mb-5">
+                Explore a wide range of programmes across biological,
+                physical, chemical, mathematical and applied sciences.
+            </p>
+
+            <div class="row g-4">
+
+                <!-- Undergraduate -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="science-course-card">
+
+                        <span class="science-course-badge">
+                            Undergraduate
+                        </span>
+
+                        <h4>Undergraduate Programmes</h4>
+
+                        <ul>
+                            <li>Bachelor of Science (B.Sc)</li>
+                            <li>B.Sc in Physics</li>
+                            <li>B.Sc in Chemistry</li>
+                            <li>B.Sc in Mathematics</li>
+                            <li>B.Sc in Biology</li>
+                            <li>B.Sc in Zoology</li>
+                            <li>B.Sc in Botany</li>
+                            <li>B.Sc in Biotechnology</li>
+                            <li>B.Sc in Microbiology</li>
+                            <li>B.Sc in Environmental Science</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- Postgraduate -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="science-course-card">
+
+                        <span class="science-course-badge">
+                            Postgraduate
+                        </span>
+
+                        <h4>Postgraduate Programmes</h4>
+
+                        <ul>
+                            <li>Master of Science (M.Sc)</li>
+                            <li>M.Sc in Physics</li>
+                            <li>M.Sc in Chemistry</li>
+                            <li>M.Sc in Mathematics</li>
+                            <li>M.Sc in Zoology</li>
+                            <li>M.Sc in Botany</li>
+                            <li>M.Sc in Biotechnology</li>
+                            <li>M.Sc in Microbiology</li>
+                            <li>M.Sc in Environmental Science</li>
+                            <li>M.Sc in Biochemistry</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- Biological Sciences -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="science-course-card">
+
+                        <span class="science-course-badge">
+                            Biological Sciences
+                        </span>
+
+                        <h4>Biological Sciences</h4>
+
+                        <ul>
+                            <li>Biotechnology</li>
+                            <li>Microbiology</li>
+                            <li>Biochemistry</li>
+                            <li>Genetics</li>
+                            <li>Molecular Biology</li>
+                            <li>Cell Biology</li>
+                            <li>Botany</li>
+                            <li>Zoology</li>
+                            <li>Bioinformatics</li>
+                            <li>Biomedical Science</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- Physical Sciences -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="science-course-card">
+
+                        <span class="science-course-badge">
+                            Physical Sciences
+                        </span>
+
+                        <h4>Physical Sciences</h4>
+
+                        <ul>
+                            <li>Applied Physics</li>
+                            <li>Quantum Physics</li>
+                            <li>Electronics</li>
+                            <li>Astrophysics</li>
+                            <li>Nuclear Physics</li>
+                            <li>Material Science</li>
+                            <li>Optics</li>
+                            <li>Geophysics</li>
+                            <li>Renewable Energy Science</li>
+                            <li>Computational Physics</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- Chemical Sciences -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="science-course-card">
+
+                        <span class="science-course-badge">
+                            Chemical Sciences
+                        </span>
+
+                        <h4>Chemical Sciences</h4>
+
+                        <ul>
+                            <li>Organic Chemistry</li>
+                            <li>Inorganic Chemistry</li>
+                            <li>Physical Chemistry</li>
+                            <li>Analytical Chemistry</li>
+                            <li>Industrial Chemistry</li>
+                            <li>Polymer Chemistry</li>
+                            <li>Pharmaceutical Chemistry</li>
+                            <li>Medicinal Chemistry</li>
+                            <li>Environmental Chemistry</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- Mathematical Sciences -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="science-course-card">
+
+                        <span class="science-course-badge">
+                            Mathematical Sciences
+                        </span>
+
+                        <h4>Mathematical Sciences</h4>
+
+                        <ul>
+                            <li>Pure Mathematics</li>
+                            <li>Applied Mathematics</li>
+                            <li>Statistics</li>
+                            <li>Operations Research</li>
+                            <li>Computational Mathematics</li>
+                            <li>Actuarial Mathematics</li>
+                            <li>Data Science</li>
+                            <li>Mathematical Modelling</li>
+                            <li>Numerical Analysis</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- Computer and Data Science -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="science-course-card">
+
+                        <span class="science-course-badge">
+                            Applied Sciences
+                        </span>
+
+                        <h4>Computer & Data Science</h4>
+
+                        <ul>
+                            <li>B.Sc in Computer Science</li>
+                            <li>B.Sc in Data Science</li>
+                            <li>M.Sc in Data Science</li>
+                            <li>Artificial Intelligence</li>
+                            <li>Machine Learning</li>
+                            <li>Scientific Computing</li>
+                            <li>Computational Biology</li>
+                            <li>Applied Statistics</li>
+                            <li>Data Analytics</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- Diploma -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="science-course-card">
+
+                        <span class="science-course-badge">
+                            Diploma & Certificate
+                        </span>
+
+                        <h4>Diploma Programmes</h4>
+
+                        <ul>
+                            <li>Diploma in Laboratory Technology</li>
+                            <li>Diploma in Biotechnology</li>
+                            <li>Diploma in Medical Laboratory Technology</li>
+                            <li>Diploma in Computer Applications</li>
+                            <li>Diploma in Environmental Science</li>
+                            <li>Certificate in Data Analysis</li>
+                            <li>Certificate in Bioinformatics</li>
+                            <li>Certificate in Scientific Research</li>
+                            <li>Certificate in Laboratory Safety</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- Research -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="science-course-card">
+
+                        <span class="science-course-badge">
+                            Research & Doctoral
+                        </span>
+
+                        <h4>Research Programmes</h4>
+
+                        <ul>
+                            <li>Ph.D. in Physics</li>
+                            <li>Ph.D. in Chemistry</li>
+                            <li>Ph.D. in Mathematics</li>
+                            <li>Ph.D. in Biotechnology</li>
+                            <li>Ph.D. in Microbiology</li>
+                            <li>Ph.D. in Zoology</li>
+                            <li>Ph.D. in Botany</li>
+                            <li>Ph.D. in Environmental Science</li>
+                            <li>Interdisciplinary Scientific Research</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <p class="science-course-note text-center">
+                Programme names, specialisations and availability are subject
+                to university approval and applicable admission requirements.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- Fee Structure -->
+    <section class="science-fees">
+        <div class="container">
+
+            <h2>Fee Structure</h2>
+
+            <div class="table-responsive">
+
+                <table class="table table-bordered table-hover text-center">
+
+                    <thead>
+                        <tr>
+                            <th>Programme</th>
+                            <th>Duration</th>
+                            <th>Eligibility</th>
+                            <th>Annual Fee</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>B.Sc</td>
+                            <td>3 Years</td>
+                            <td>10+2 with Relevant Subjects</td>
+                            <td>₹55,000</td>
+                        </tr>
+
+                        <tr>
+                            <td>B.Sc Biotechnology</td>
+                            <td>3 Years</td>
+                            <td>10+2 with Science</td>
+                            <td>₹65,000</td>
+                        </tr>
+
+                        <tr>
+                            <td>B.Sc Microbiology</td>
+                            <td>3 Years</td>
+                            <td>10+2 with Science</td>
+                            <td>₹60,000</td>
+                        </tr>
+
+                        <tr>
+                            <td>M.Sc</td>
+                            <td>2 Years</td>
+                            <td>Relevant Bachelor's Degree</td>
+                            <td>₹70,000</td>
+                        </tr>
+
+                        <tr>
+                            <td>M.Sc Biotechnology</td>
+                            <td>2 Years</td>
+                            <td>Relevant Bachelor's Degree</td>
+                            <td>₹80,000</td>
+                        </tr>
+
+                        <tr>
+                            <td>M.Sc Microbiology</td>
+                            <td>2 Years</td>
+                            <td>Relevant Bachelor's Degree</td>
+                            <td>₹75,000</td>
+                        </tr>
+
+                        <tr>
+                            <td>Diploma Programmes</td>
+                            <td>1 Year</td>
+                            <td>As per Programme Requirements</td>
+                            <td>₹35,000</td>
+                        </tr>
+
+                        <tr>
+                            <td>Certificate Programmes</td>
+                            <td>3–6 Months</td>
+                            <td>As per Programme Requirements</td>
+                            <td>₹15,000</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <p class="text-muted text-center mt-3">
+                Note: The fees shown are sample figures for website layout
+                purposes. Please replace them with the university's approved
+                fee structure.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- Bottom Banner -->
+    <section class="science-banner-section">
+        <div class="container science-banner-container">
+
+            <img
+                src="/assets/img/science-banner.jpeg"
+                alt="Northbridge University Science Department">
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer"></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./js/script.js"></script>
+
+</body>
+</html>

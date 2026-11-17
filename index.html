@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NorthBridge University | Excellence in Education</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <i class="fa fa-envelope"></i>
+                    info@northbridgeuniversity.edu
+                </div>
+
+                <div class="col-md-6 text-end">
+                    <a href="contact.html"><i class="fa fa-phone"></i> Contact Us</a>
+                    <a href="admission.html">Admissions</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+
+        <a class="navbar-brand" href="index.html">
+            <img src="./assets/img/logo.jpg" alt="NorthBridge Logo">
+            <span>NorthBridge<br>
+                <small>UNIVERSITY</small>
+            </span>
+        </a>
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <!-- ABOUT DROPDOWN -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#" data-bs-toggle="dropdown">
+                        About
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item"
+                            href="about.html">About Us</a></li>
+                        <li><a class="dropdown-item"
+                            href="/mission.html">Our Mission</a></li>
+                        <li><a class="dropdown-item"
+                            href="/vision.html">Our Vision</a></li>
+                    </ul>
+                </li>
+
+                <!-- COURSES DROPDOWN -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#" data-bs-toggle="dropdown">
+                        Courses
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/bca.html">BCA</a></li>
+                        <li><a class="dropdown-item" href="/mca.html">MCA</a></li>
+                        <li><a class="dropdown-item" href="/bsc it.html">B.Sc IT</a></li>
+                        <li><a class="dropdown-item" href="/computer-science.html">Computer Science</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="/bba.html">BBA</a></li>
+                        <li><a class="dropdown-item" href="/mba.html">MBA</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="/bsc.html">B.Sc</a></li>
+                        <li><a class="dropdown-item" href="/msc.html">M.Sc</a></li>
+                        <li><a class="dropdown-item" href="/research.html">Research Programs</a></li>
+                    </ul>
+                </li>
+
+                <!-- DEPARTMENTS DROPDOWN -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#" data-bs-toggle="dropdown">
+                        Departments
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/ComputerScience.html">Computer Science</a></li>
+                        <li><a class="dropdown-item" href="/ManagementStudies.html">Management Studies</a></li>
+                        <li><a class="dropdown-item" href="/Science.html">Science</a></li>
+                        <li><a class="dropdown-item" href="/arts-humanities.html">Arts & Humanities</a></li>
+                        <li><a class="dropdown-item" href="/Commerce.html">Commerce</a></li>
+                        <li><a class="dropdown-item" href="/ProfessionalStudies.html">Professional Studies</a></li>
+                    </ul>
+                </li>
+
+                <!-- FACILITIES DROPDOWN -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#" data-bs-toggle="dropdown">
+                        Facilities
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/library.html">Library</a></li>
+                        <li><a class="dropdown-item" href="/computer-labs.html">Computer Labs</a></li>
+                        <li><a class="dropdown-item" href="/sports.html">Sports Facilities</a></li>
+                        <li><a class="dropdown-item" href="/hostel.html">Hostel</a></li>
+                        <li><a class="dropdown-item" href="/cafeteria.html">Cafeteria</a></li>
+                        <li><a class="dropdown-item" href="/transportation.html">Transportation</a></li>
+                        <li><a class="dropdown-item" href="/auditorium.html">Auditorium</a></li>
+                        <li><a class="dropdown-item" href="/medical.html">Medical Facilities</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="campus.html">Campus Life</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link apply-nav"
+                       href="contact.html">Apply Now</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- HERO CAROUSEL -->
+    <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel"> 
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <div class="hero-slide"
+                     style="background-image:url('./assets/img/websitemain.jpg')">
+
+                    <div class="container">
+                        <div class="hero-content">
+
+                            <span>WELCOME TO NORTHBRIDGE</span>
+
+                            <h1>Shape Your Future Through Education</h1>
+
+                            <p>
+                                Discover opportunities, explore your potential
+                                and build the foundation for a successful future.
+                            </p>
+
+                            <a href="#courses" class="hero-btn">
+                                Explore Programs
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="hero-slide"
+                     style="background-image:url('./assets/img/2mainimage.png')">
+
+                    <div class="container">
+                        <div class="hero-content">
+
+                            <span>LEARN. GROW. ACHIEVE.</span>
+
+                            <h1>Education That Inspires Excellence</h1>
+
+                            <p>
+                                Experience learning that encourages creativity,
+                                innovation and personal development.
+                            </p>
+
+                            <a href="#about" class="hero-btn">
+                                Discover More
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="hero-slide"
+                     style="background-image:url('./assets/img/3mainimage.png')">
+
+                    <div class="container">
+                        <div class="hero-content">
+
+                            <span>YOUR JOURNEY STARTS HERE</span>
+
+                            <h1>Unlock Your Potential With Us</h1>
+
+                            <p>
+                                Become part of a learning community that
+                                prepares you for tomorrow.
+                            </p>
+
+                            <a href="contact.html" class="hero-btn">
+                                Apply Today
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button"
+                data-bs-target="#mainCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button"
+                data-bs-target="#mainCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </div>
+
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section" id="about">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+                    <img src="./assets/img/4mainimage.png"
+                         class="about-image"
+                         alt="University campus">
+                </div>
+
+                <div class="col-lg-6">
+
+                    <div class="about-content">
+
+                        <span class="section-label">ABOUT OUR UNIVERSITY</span>
+
+                        <h2>Building Knowledge. Creating Opportunities.</h2>
+
+                        <p>
+                            NorthBridge University is dedicated to providing
+                            students with a supportive learning environment
+                            where academic excellence and personal growth
+                            come together.
+                        </p>
+
+                        <p>
+                            Through quality education, practical learning
+                            and experienced educators, we aim to prepare
+                            students for a changing professional world.
+                        </p>
+
+                        <a href="#courses" class="about-btn">
+                            Discover More
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- COURSES SECTION -->
+    <section class="courses-section" id="courses">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="section-label">ACADEMIC EXCELLENCE</span>
+
+                <h2>Explore Our Academic Programs</h2>
+
+                <p>
+                    Discover your interests, develop your skills and prepare
+                    for a successful future with our diverse academic programs.
+                </p>
+
+            </div>
+
+
+            <!-- COURSE 1 -->
+            <div class="row align-items-center course-row">
+
+                <div class="col-lg-5">
+
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1000"
+                         class="course-image"
+                         alt="Computer science students">
+
+                </div>
+
+                <div class="col-lg-7">
+
+                    <span class="course-number">
+                        01 / SCHOOL OF TECHNOLOGY
+                    </span>
+
+                    <h3>Computer Science & Information Technology</h3>
+
+                    <p>
+                        Build the future through programming, software
+                        development, data science and modern technologies.
+                    </p>
+
+                    <div class="course-tags">
+                        <span>BCA</span>
+                        <span>MCA</span>
+                        <span>B.Sc IT</span>
+                        <span>Computer Science</span>
+                    </div>
+
+                    <a href="#contact" class="text-link">
+                        Explore Programs <span>↗️</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- COURSE 2 -->
+            <div class="row align-items-center course-row">
+
+                <div class="col-lg-5">
+
+                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1000"
+                         class="course-image"
+                         alt="Business students">
+
+                </div>
+
+                <div class="col-lg-7">
+
+                    <span class="course-number">
+                        02 / SCHOOL OF MANAGEMENT
+                    </span>
+
+                    <h3>Business & Management Studies</h3>
+
+                    <p>
+                        Develop leadership, communication and business
+                        management skills for tomorrow's professional world.
+                    </p>
+
+                    <div class="course-tags">
+                        <span>BBA</span>
+                        <span>MBA</span>
+                        <span>Management</span>
+                    </div>
+
+                    <a href="#contact" class="text-link">
+                        Explore Programs <span>↗️</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- COURSE 3 -->
+            <div class="row align-items-center course-row">
+
+                <div class="col-lg-5">
+
+                    <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1000"
+                         class="course-image"
+                         alt="Science laboratory">
+
+                </div>
+
+                <div class="col-lg-7">
+
+                    <span class="course-number">
+                        03 / SCHOOL OF SCIENCE
+                    </span>
+
+                    <h3>Science & Research</h3>
+
+                    <p>
+                        Explore scientific discoveries, practical learning
+                        and research-driven academic opportunities.
+                    </p>
+
+                    <div class="course-tags">
+                        <span>B.Sc</span>
+                        <span>M.Sc</span>
+                        <span>Research</span>
+                    </div>
+
+                    <a href="#contact" class="text-link">
+                        Explore Programs <span>↗️</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ADMISSIONS SECTION -->
+    <section class="admission-section">
+
+        <div class="container">
+
+            <div class="row g-0 admission-wrapper">
+
+                <div class="col-lg-6">
+
+                    <img src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=1200&q=85"
+                         class="admission-image"
+                         alt="University students on campus">
+
+                </div>
+
+
+                <div class="col-lg-6">
+
+                    <div class="admission-content">
+
+                        <span class="section-label">
+                            YOUR FUTURE STARTS HERE
+                        </span>
+
+                        <h2>Your Next Chapter Starts Here</h2>
+
+                        <p>
+                            Take the first step towards your ambitions.
+                            Discover an environment where learning,
+                            innovation and opportunities come together.
+                        </p>
+
+                        <div class="admission-points">
+
+                            <div>
+                                <span>01</span>
+                                <p>Industry-focused education</p>
+                            </div>
+
+                            <div>
+                                <span>02</span>
+                                <p>Experienced faculty and mentorship</p>
+                            </div>
+
+                            <div>
+                                <span>03</span>
+                                <p>Learning beyond the classroom</p>
+                            </div>
+
+                        </div>
+
+                        <a href="contact.html" class="admission-btn">
+                            Apply Now <span>↗️</span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- DEPARTMENTS SECTION -->
+    <section class="departments-section" id="departments">
+
+        <div class="container">
+
+            <div class="section-heading text-center mx-auto">
+
+                <span class="section-label">OUR DEPARTMENTS</span>
+
+                <h2>Discover Your Area of Interest</h2>
+
+                <p>
+                    Explore different academic disciplines and find
+                    the right direction for your future.
+                </p>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <div class="col-lg-4 col-md-6 col-6" >
+                    <div class="department-card p-4">
+                        <i class="fa fa-laptop"></i>
+                        <h4>Computer Science</h4>
+                        <p>
+                            Explore technology, programming and
+                            modern computing applications.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-6">
+                    <div class="department-card p-4">
+                        <i class="fa fa-briefcase"></i>
+                        <h4>Management Studies</h4>
+                        <p>
+                            Develop business knowledge, leadership
+                            and management skills.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-6">
+                    <div class="department-card p-4">
+                        <i class="fa fa-flask"></i>
+                        <h4>Science</h4>
+                        <p>
+                            Discover scientific principles through
+                            research and practical learning.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-6">
+                    <div class="department-card p-4">
+                        <i class="fa fa-book"></i>
+                        <h4>Arts & Humanities</h4>
+                        <p>
+                            Understand society, culture, language
+                            and human development.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-6">
+                    <div class="department-card p-4">
+                        <i class="fa fa-calculator"></i>
+                        <h4>Commerce</h4>
+                        <p>
+                            Learn about finance, accounting,
+                            economics and business.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-6">
+                    <div class="department-card p-4">
+                        <i class="fa fa-graduation-cap"></i>
+                        <h4>Professional Studies</h4>
+                        <p>
+                            Build practical knowledge and
+                            career-focused professional skills.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FACULTY SECTION -->
+    <section class="faculty-section" id="faculty">
+
+        <div class="container">
+
+            <div class="faculty-heading">
+
+                <div>
+
+                    <span class="section-label">MEET OUR EDUCATORS</span>
+
+                    <h2>Learn From The Best</h2>
+
+                    <p>
+                        Meet the dedicated educators who inspire,
+                        guide and support our students every day.
+                    </p>
+
+                </div>
+
+                <a href="#contact" class="text-link">
+                    Meet Our Faculty <span>↗️</span>
+                </a>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <div class="col-6 col-lg-3">
+                    <div class="faculty-member">
+
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600"
+                             alt="Faculty member">
+
+                        <div class="faculty-info">
+                            <h4>Faculty Member</h4>
+                            <p>Professor · Management</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-lg-3">
+                    <div class="faculty-member">
+
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600"
+                             alt="Faculty member">
+
+                        <div class="faculty-info">
+                            <h4>Faculty Member</h4>
+                            <p>Assistant Professor · Science</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-lg-3">
+                    <div class="faculty-member">
+
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600"
+                             alt="Faculty member">
+
+                        <div class="faculty-info">
+                            <h4>Faculty Member</h4>
+                            <p>Professor · Computer Science</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-lg-3">
+                    <div class="faculty-member">
+
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600"
+                             alt="Faculty member">
+
+                        <div class="faculty-info">
+                            <h4>Faculty Member</h4>
+                            <p>Assistant Professor · Arts</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CAMPUS LIFE SECTION -->
+    <section class="campus-section" id="campus">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="section-label">LIFE AT NORTHBRIDGE</span>
+
+                <h2>Experience Our Campus Life</h2>
+
+                <p>
+                    University life is more than academics.
+                    Discover friendships, activities and experiences
+                    that make every day memorable.
+                </p>
+
+            </div>
+
+
+            <div class="row g-4">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="campus-item">
+
+                        <img src="./assets/img/basketball.webp"
+                             class="campus-image"
+                             alt="University sports">
+
+                        <div class="campus-caption">
+                            <h4>Sports & Activities</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="campus-item">
+
+                        <img src="./assets/img/student_life3.png"
+                             class="campus-image"
+                             alt="Student life">
+
+                        <div class="campus-caption">
+                            <h4>Student Community</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="campus-item">
+
+                        <img src="./assets/img/campus-img2.jpeg"
+                             class="campus-image"
+                             alt="University campus">
+
+                        <div class="campus-caption">
+                            <h4>Campus Experience</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="campus-item">
+
+                        <img src="./assets/img/dance.jpeg"
+                             class="campus-image"
+                             alt="University cultural activities">
+
+                        <div class="campus-caption">
+                            <h4>Cultural Events</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+
+        <div class="container">
+
+            <div class="row g-4">
+
+                <div class="col-lg-4 col-md-6">
+
+                    <h4>NorthBridge University</h4>
+
+                    <p>
+                        Inspiring minds, building futures and
+                        creating opportunities through quality education.
+                    </p>
+
+                    <div class="social-links">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-2 col-md-6">
+
+                    <h4>Quick Links</h4>
+
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#faculty">Faculty</a></li>
+                        <li><a href="#campus">Campus Life</a></li>
+                    </ul>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-6">
+
+                    <h4>Academic</h4>
+
+                    <ul>
+                        <li><a href="#departments">Departments</a></li>
+                        <li><a href="#courses">Programs</a></li>
+                        <li><a href="#faculty">Our Faculty</a></li>
+                        <li><a href="contact.html">Admissions</a></li>
+                    </ul>
+
+                </div>
+
+
+                <div class="col-lg-3 col-md-6">
+
+                    <h4>Contact Us</h4>
+
+                    <p>
+                        <i class="fa fa-map-marker"></i>
+                        University Campus
+                    </p>
+
+                    <p>
+                        <i class="fa fa-envelope"></i>
+                        info@northbridgeuniversity.edu
+                    </p>
+
+                    <p>
+                        <i class="fa fa-phone"></i>
+                        +91 00000 00000
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+                <p>
+                    Copyright ©️ 2026 NorthBridge University.
+                    All Rights Reserved.
+                </p>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- CUSTOM JAVASCRIPT -->
+    <script>
+        const carouselElement = document.querySelector('#mainCarousel');
+
+        const heroCarousel = new bootstrap.Carousel(carouselElement, {
+            interval: 4000,
+            ride: 'carousel',
+            pause: false
+        });
+    </script>
+
+</body>
+</html>

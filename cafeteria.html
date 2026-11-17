@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cafeteria | Northbridge University</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fc;
+            color: #333;
+        }
+
+        .cafeteria-hero {
+            color: #06452f;
+            padding: 70px 0;
+        }
+
+        .cafeteria-hero h1 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .cafeteria-hero p {
+            font-size: 17px;
+            line-height: 1.7;
+        }
+
+        .cafeteria-hero img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        .cafeteria-btn {
+            background: #06452f;
+            color: white;
+            padding: 12px 28px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: 600;
+            margin-top: 15px;
+        }
+
+        .cafeteria-btn:hover {
+            background: #d6a84b;
+            color: white;
+        }
+
+        .cafeteria-section {
+            padding: 65px 0;
+        }
+
+        .cafeteria-heading {
+            text-align: center;
+            color: #06452f;
+            font-weight: 700;
+            margin-bottom: 40px;
+        }
+
+        .cafeteria-card {
+            background: white;
+            padding: 30px 20px;
+            text-align: center;
+            border-radius: 10px;
+            height: 100%;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+            transition: 0.3s;
+        }
+
+        .cafeteria-card:hover {
+            transform: translateY(-6px);
+        }
+
+        .cafeteria-card h4 {
+            color: #06452f;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .cafeteria-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .cafeteria-details img {
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .cafeteria-details h2 {
+            color: #06452f;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .cafeteria-details p {
+            color: #555;
+            line-height: 1.8;
+        }
+
+        @media (max-width: 768px) {
+            .cafeteria-hero {
+                padding: 45px 0;
+                text-align: center;
+            }
+
+            .cafeteria-hero h1 {
+                font-size: 32px;
+            }
+
+            .cafeteria-hero img {
+                height: 250px;
+                margin-top: 25px;
+            }
+
+            .cafeteria-details {
+                text-align: center;
+            }
+
+            .cafeteria-details img {
+                margin-bottom: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header"></header>
+
+    <!-- Hero Section -->
+    <section class="cafeteria-hero">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+                    <h1>University Cafeteria</h1>
+
+                    <p>
+                        The cafeteria at Northbridge University
+                        provides students and staff with a welcoming
+                        place to enjoy meals, refreshments and
+                        quality time with friends.
+                    </p>
+
+                    <p>
+                        It offers a comfortable environment where
+                        students can relax, refresh themselves and
+                        take a break from their academic schedules.
+                    </p>
+
+                    <a href="contact.html" class="cafeteria-btn">
+                        Know More
+                    </a>
+                </div>
+
+                <div class="col-lg-6">
+                    <img
+                        src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1000"
+                        alt="University cafeteria">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Cafeteria Highlights -->
+    <section class="cafeteria-section">
+        <div class="container">
+
+            <h2 class="cafeteria-heading">
+                Our Cafeteria Facilities
+            </h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="cafeteria-card">
+                        <h4>Fresh Food</h4>
+                        <p>
+                            Food options prepared to provide
+                            students with enjoyable everyday meals.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="cafeteria-card">
+                        <h4>Refreshing Drinks</h4>
+                        <p>
+                            A variety of beverages and refreshments
+                            for students and university staff.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="cafeteria-card">
+                        <h4>Comfortable Seating</h4>
+                        <p>
+                            Spacious seating arrangements for
+                            relaxing and enjoying meals together.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="cafeteria-card">
+                        <h4>Friendly Environment</h4>
+                        <p>
+                            A welcoming space for students to
+                            interact and spend time with friends.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Cafeteria Details -->
+    <section class="cafeteria-section cafeteria-details">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+                    <img
+                        src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1000"
+                        alt="Cafeteria dining area">
+                </div>
+
+                <div class="col-lg-6">
+                    <h2>A Place to Relax and Connect</h2>
+
+                    <p>
+                        The university cafeteria is more than
+                        just a place to eat. It provides students
+                        with an opportunity to connect, share
+                        conversations and build friendships.
+                    </p>
+
+                    <p>
+                        With a comfortable atmosphere and
+                        convenient dining space, the cafeteria
+                        adds to the overall campus experience
+                        at Northbridge University.
+                    </p>
+
+                    <a href="contact.html" class="cafeteria-btn">
+                        Contact Us
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer"></footer>
+
+    <script src="./js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

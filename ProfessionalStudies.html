@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Professional Studies | Northbridge University</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-green: #06452f;
+            --gold: #d6a84b;
+            --light-bg: #f8f9fc;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        /* Hero Section */
+        .professional-section {
+            padding: 70px 0;
+            background-color: var(--light-bg);
+        }
+
+        .professional-section h1 {
+            color: var(--primary-green);
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .professional-section p {
+            line-height: 1.8;
+            font-size: 16px;
+        }
+
+        .professional-img {
+            width: 100%;
+            height: 380px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        .professional-btn {
+            background-color: var(--primary-green);
+            color: #ffffff;
+            padding: 12px 28px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 15px;
+            transition: 0.3s;
+        }
+
+        .professional-btn:hover {
+            background-color: var(--gold);
+            color: #ffffff;
+        }
+
+        /* Department Highlights */
+        .professional-details {
+            padding: 55px 0;
+        }
+
+        .professional-details .detail-card {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            height: 100%;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+            border-bottom: 4px solid var(--gold);
+        }
+
+        .professional-details h4 {
+            color: var(--primary-green);
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        /* Courses Section */
+        .professional-courses {
+            padding: 65px 0;
+            background-color: var(--light-bg);
+        }
+
+        .professional-courses h2 {
+            color: var(--primary-green);
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .professional-course-card {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            height: 100%;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.07);
+            transition: 0.3s;
+        }
+
+        .professional-course-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .professional-course-card h4 {
+            color: var(--primary-green);
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .professional-course-card ul {
+            padding-left: 20px;
+            margin-bottom: 0;
+        }
+
+        .professional-course-card li {
+            margin-bottom: 9px;
+            line-height: 1.5;
+        }
+
+        .professional-course-badge {
+            display: inline-block;
+            background-color: #f5e8c9;
+            color: #795516;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .professional-course-note {
+            font-size: 14px;
+            color: #666;
+            margin-top: 12px;
+        }
+
+        /* Fee Section */
+        .professional-fees {
+            padding: 65px 0;
+        }
+
+        .professional-fees h2 {
+            color: var(--primary-green);
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .professional-fees table {
+            background-color: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .professional-fees thead {
+            background-color: var(--primary-green);
+            color: #ffffff;
+        }
+
+        .professional-fees th,
+        .professional-fees td {
+            padding: 15px;
+            vertical-align: middle;
+        }
+
+        /* Banner */
+        .professional-banner-section {
+            padding: 45px 0;
+            background-color: var(--light-bg);
+        }
+
+        .professional-banner-container {
+            text-align: center;
+        }
+
+        .professional-banner-container img {
+            width: 100%;
+            height: auto;
+            max-width: 1400px;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .professional-section {
+                padding: 45px 0;
+            }
+
+            .professional-section h1 {
+                font-size: 30px;
+            }
+
+            .professional-img {
+                height: 260px;
+                margin-top: 25px;
+            }
+
+            .professional-details,
+            .professional-courses,
+            .professional-fees {
+                padding: 45px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header"></header>
+
+    <!-- Hero Section -->
+    <section class="professional-section">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+                    <h1>Department of Professional Studies</h1>
+
+                    <p>
+                        The Department of Professional Studies at Northbridge
+                        University is dedicated to developing industry-ready
+                        professionals through practical learning, academic
+                        knowledge and skill-based education.
+                    </p>
+
+                    <p>
+                        Our programmes focus on professional development,
+                        communication, leadership, entrepreneurship and
+                        specialised industry skills. Students gain opportunities
+                        to explore real-world business challenges and prepare
+                        for diverse career paths.
+                    </p>
+
+                    <a href="contact.html" class="professional-btn">
+                        Enquire Now
+                    </a>
+                </div>
+
+                <div class="col-lg-6">
+                    <img
+                        src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1000"
+                        alt="Professional Studies students collaborating"
+                        class="professional-img">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Department Highlights -->
+    <section class="professional-details">
+        <div class="container">
+
+            <div class="row g-4">
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="detail-card">
+                        <h4>Industry Focus</h4>
+                        <p>
+                            Learning designed around professional and
+                            workplace requirements.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="detail-card">
+                        <h4>Practical Learning</h4>
+                        <p>
+                            Projects, presentations, case studies and
+                            hands-on activities.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="detail-card">
+                        <h4>Skill Development</h4>
+                        <p>
+                            Focus on communication, teamwork, leadership
+                            and problem-solving.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="detail-card">
+                        <h4>Career Preparation</h4>
+                        <p>
+                            Professional exposure and preparation for
+                            different career opportunities.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="professional-courses">
+        <div class="container">
+
+            <h2>Our Courses & Programmes</h2>
+
+            <p class="text-center mb-5">
+                Explore academic programmes and professional learning
+                opportunities offered under the Department of Professional Studies.
+            </p>
+
+            <div class="row g-4">
+
+                <!-- Undergraduate -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="professional-course-card">
+
+                        <span class="professional-course-badge">
+                            Undergraduate
+                        </span>
+
+                        <h4>Undergraduate Programmes</h4>
+
+                        <ul>
+                            <li>Bachelor of Vocational Studies (B.Voc)</li>
+                            <li>B.Voc in Banking and Financial Services</li>
+                            <li>B.Voc in Retail Management</li>
+                            <li>B.Voc in Healthcare Management</li>
+                            <li>B.Voc in Hospitality Management</li>
+                            <li>B.Voc in Logistics and Supply Chain Management</li>
+                            <li>Bachelor of Business Administration (BBA)</li>
+                            <li>Bachelor of Commerce (B.Com)</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- Postgraduate -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="professional-course-card">
+
+                        <span class="professional-course-badge">
+                            Postgraduate
+                        </span>
+
+                        <h4>Postgraduate Programmes</h4>
+
+                        <ul>
+                            <li>Master of Vocational Studies (M.Voc)</li>
+                            <li>M.Voc in Banking and Finance</li>
+                            <li>M.Voc in Retail Management</li>
+                            <li>M.Voc in Hospitality Management</li>
+                            <li>Master of Business Administration (MBA)</li>
+                            <li>MBA in Business Analytics</li>
+                            <li>MBA in International Business</li>
+                            <li>Master of Commerce (M.Com)</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- Finance -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="professional-course-card">
+
+                        <span class="professional-course-badge">
+                            Finance & Banking
+                        </span>
+
+                        <h4>Finance & Banking Studies</h4>
+
+                        <ul>
+                            <li>Banking and Financial Services</li>
+                            <li>Investment and Wealth Management</li>
+                            <li>Financial Planning</li>
+                            <li>Corporate Finance</li>
+                            <li>Accounting and Taxation</li>
+                            <li>Insurance and Risk Management</li>
+                            <li>Financial Markets</li>
+                            <li>FinTech Fundamentals</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- Business -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="professional-course-card">
+
+                        <span class="professional-course-badge">
+                            Business & Entrepreneurship
+                        </span>
+
+                        <h4>Business & Entrepreneurship</h4>
+
+                        <ul>
+                            <li>Entrepreneurship Development</li>
+                            <li>Small Business Management</li>
+                            <li>Business Communication</li>
+                            <li>Business Strategy</li>
+                            <li>International Business Operations</li>
+                            <li>Business Development</li>
+                            <li>Startup Management</li>
+                            <li>Leadership and Management Skills</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- Technology -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="professional-course-card">
+
+                        <span class="professional-course-badge">
+                            Technology & Digital Skills
+                        </span>
+
+                        <h4>Technology & Digital Skills</h4>
+
+                        <ul>
+                            <li>Digital Business Management</li>
+                            <li>Business Analytics</li>
+                            <li>Data Analysis for Professionals</li>
+                            <li>Digital Marketing</li>
+                            <li>E-Commerce Management</li>
+                            <li>Digital Transformation</li>
+                            <li>Office Automation</li>
+                            <li>Information Systems Management</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- Industry -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="professional-course-card">
+
+                        <span class="professional-course-badge">
+                            Industry Specialisations
+                        </span>
+
+                        <h4>Industry Specialisations</h4>
+
+                        <ul>
+                            <li>Retail and Sales Management</li>
+                            <li>Hospitality and Tourism Management</li>
+                            <li>Healthcare Administration</li>
+                            <li>Logistics and Supply Chain</li>
+                            <li>Event Management</li>
+                            <li>Human Resource Management</li>
+                            <li>Project Management</li>
+                            <li>Operations Management</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- Professional Certifications -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="professional-course-card">
+
+                        <span class="professional-course-badge">
+                            Professional Certifications
+                        </span>
+
+                        <h4>Professional Certifications</h4>
+
+                        <ul>
+                            <li>Certificate in Financial Literacy</li>
+                            <li>Certificate in Business Communication</li>
+                            <li>Certificate in Project Management</li>
+                            <li>Certificate in Digital Marketing</li>
+                            <li>Certificate in Data Analytics</li>
+                            <li>Certificate in Entrepreneurship</li>
+                            <li>Certificate in Customer Relationship Management</li>
+                            <li>Certificate in Leadership Skills</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- Diploma -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="professional-course-card">
+
+                        <span class="professional-course-badge">
+                            Diploma Programmes
+                        </span>
+
+                        <h4>Diploma & Advanced Diploma</h4>
+
+                        <ul>
+                            <li>Diploma in Banking and Finance</li>
+                            <li>Diploma in Business Administration</li>
+                            <li>Diploma in Digital Marketing</li>
+                            <li>Diploma in Retail Management</li>
+                            <li>Diploma in Human Resource Management</li>
+                            <li>Diploma in Hospitality Management</li>
+                            <li>Advanced Diploma in Business Analytics</li>
+                            <li>Advanced Diploma in Logistics Management</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <!-- Research -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="professional-course-card">
+
+                        <span class="professional-course-badge">
+                            Research & Doctoral
+                        </span>
+
+                        <h4>Research Programmes</h4>
+
+                        <ul>
+                            <li>Ph.D. in Professional Studies</li>
+                            <li>Ph.D. in Management Studies</li>
+                            <li>Ph.D. in Commerce and Finance</li>
+                            <li>Ph.D. in Business Administration</li>
+                            <li>Research in Vocational Education</li>
+                            <li>Industry-Based Research Projects</li>
+                            <li>Interdisciplinary Research</li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <p class="professional-course-note text-center">
+                Programme names, specialisations and availability are subject
+                to university approval and the applicable admission requirements.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- Fee Structure -->
+    <section class="professional-fees">
+        <div class="container">
+
+            <h2>Fee Structure</h2>
+
+            <div class="table-responsive">
+
+                <table class="table table-bordered table-hover text-center">
+
+                    <thead>
+                        <tr>
+                            <th>Programme</th>
+                            <th>Duration</th>
+                            <th>Eligibility</th>
+                            <th>Annual Fee</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>B.Voc</td>
+                            <td>3 Years</td>
+                            <td>10+2 or Equivalent</td>
+                            <td>₹60,000</td>
+                        </tr>
+
+                        <tr>
+                            <td>BBA</td>
+                            <td>3 Years</td>
+                            <td>10+2 or Equivalent</td>
+                            <td>₹75,000</td>
+                        </tr>
+
+                        <tr>
+                            <td>B.Com</td>
+                            <td>3 Years</td>
+                            <td>10+2 or Equivalent</td>
+                            <td>₹55,000</td>
+                        </tr>
+
+                        <tr>
+                            <td>M.Voc</td>
+                            <td>2 Years</td>
+                            <td>Relevant Bachelor's Degree</td>
+                            <td>₹80,000</td>
+                        </tr>
+
+                        <tr>
+                            <td>MBA</td>
+                            <td>2 Years</td>
+                            <td>Recognised Bachelor's Degree</td>
+                            <td>₹1,20,000</td>
+                        </tr>
+
+                        <tr>
+                            <td>M.Com</td>
+                            <td>2 Years</td>
+                            <td>Relevant Bachelor's Degree</td>
+                            <td>₹65,000</td>
+                        </tr>
+
+                        <tr>
+                            <td>Diploma Programmes</td>
+                            <td>1 Year</td>
+                            <td>As per Programme Requirements</td>
+                            <td>₹30,000</td>
+                        </tr>
+
+                        <tr>
+                            <td>Certificate Programmes</td>
+                            <td>3–6 Months</td>
+                            <td>As per Programme Requirements</td>
+                            <td>₹15,000</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <p class="text-muted text-center mt-3">
+                Note: The fees shown are sample figures for website layout
+                purposes. Please replace them with the university's approved
+                fee structure.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- Bottom Banner -->
+    <section class="professional-banner-section">
+        <div class="container professional-banner-container">
+
+            <img
+                src="/assets/img/professional-studies-banner.jpeg"
+                alt="Northbridge University Professional Studies">
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer"></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./js/script.js"></script>
+
+</body>
+</html>

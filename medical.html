@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Medical Facilities | Northbridge University</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fc;
+            color: #333;
+        }
+
+        .medical-hero {
+            color: #06452f;
+            padding: 70px 0;
+        }
+
+        .medical-hero h1 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .medical-hero p {
+            font-size: 17px;
+            line-height: 1.7;
+        }
+
+        .medical-hero img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        .medical-btn {
+            background: #06452f;
+            color: white;
+            padding: 12px 28px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: 600;
+            margin-top: 15px;
+        }
+
+        .medical-btn:hover {
+            background: #d6a84b;
+            color: white;
+        }
+
+        .medical-section {
+            padding: 65px 0;
+        }
+
+        .medical-heading {
+            text-align: center;
+            color: #06452f;
+            font-weight: 700;
+            margin-bottom: 40px;
+        }
+
+        .medical-card {
+            background: white;
+            padding: 30px 20px;
+            text-align: center;
+            border-radius: 10px;
+            height: 100%;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+            transition: 0.3s;
+        }
+
+        .medical-card:hover {
+            transform: translateY(-6px);
+        }
+
+        .medical-card h4 {
+            color: #06452f;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .medical-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .medical-details img {
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .medical-details h2 {
+            color: #06452f;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .medical-details p {
+            color: #555;
+            line-height: 1.8;
+        }
+
+        @media (max-width: 768px) {
+            .medical-hero {
+                padding: 45px 0;
+                text-align: center;
+            }
+
+            .medical-hero h1 {
+                font-size: 32px;
+            }
+
+            .medical-hero img {
+                height: 250px;
+                margin-top: 25px;
+            }
+
+            .medical-details {
+                text-align: center;
+            }
+
+            .medical-details img {
+                margin-bottom: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header"></header>
+
+    <!-- Hero Section -->
+    <section class="medical-hero">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+                    <h1>Medical Facilities</h1>
+
+                    <p>
+                        Northbridge University gives importance
+                        to the health and well-being of its students
+                        and staff. Medical facilities help provide
+                        basic healthcare support within the campus.
+                    </p>
+
+                    <p>
+                        The university aims to create a safe and
+                        supportive environment where students can
+                        access medical assistance when required.
+                    </p>
+
+                    <a href="contact.html" class="medical-btn">
+                        Know More
+                    </a>
+                </div>
+
+                <div class="col-lg-6">
+                    <img
+                        src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1000"
+                        alt="Medical healthcare facilities">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Medical Highlights -->
+    <section class="medical-section">
+        <div class="container">
+
+            <h2 class="medical-heading">
+                Our Medical Facilities
+            </h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="medical-card">
+                        <h4>First Aid</h4>
+                        <p>
+                            Basic first-aid support for minor
+                            injuries and immediate medical needs.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="medical-card">
+                        <h4>Health Checkups</h4>
+                        <p>
+                            Health awareness and basic checkup
+                            initiatives for the university community.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="medical-card">
+                        <h4>Emergency Support</h4>
+                        <p>
+                            Assistance and guidance for students
+                            during medical emergencies.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="medical-card">
+                        <h4>Health Awareness</h4>
+                        <p>
+                            Activities that encourage healthy
+                            habits and awareness about well-being.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Medical Details -->
+    <section class="medical-section medical-details">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+                    <img
+                        src="https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=1000"
+                        alt="Healthcare professional providing medical support">
+                </div>
+
+                <div class="col-lg-6">
+                    <h2>Care for a Healthy Campus</h2>
+
+                    <p>
+                        Student health plays an important role
+                        in academic success and overall development.
+                        Access to basic medical support helps
+                        students feel safer and more confident.
+                    </p>
+
+                    <p>
+                        Northbridge University aims to promote
+                        health awareness and encourage students
+                        to take care of their physical well-being
+                        throughout their academic journey.
+                    </p>
+
+                    <a href="contact.html" class="medical-btn">
+                        Contact Us
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer"></footer>
+
+    <script src="./js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
